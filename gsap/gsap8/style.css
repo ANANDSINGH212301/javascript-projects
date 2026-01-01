@@ -1,0 +1,338 @@
+@font-face {
+    font-family: "china";
+    src: url("https://db.onlinewebfonts.com/t/82b778d1b069157bf6b2e32dc4e1e3f1.eot");
+    src: url("https://db.onlinewebfonts.com/t/82b778d1b069157bf6b2e32dc4e1e3f1.eot?#iefix")format("embedded-opentype"),
+        url("https://db.onlinewebfonts.com/t/82b778d1b069157bf6b2e32dc4e1e3f1.woff2")format("woff2")
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: china;
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+    padding: 1rem 2rem;
+}
+body{
+    overflow-x: hidden ;
+}
+
+
+.page1 {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav i {
+    margin-right: 8px;
+    rotate: 45deg;
+    display: inline-block;
+}
+
+.part2 {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    font-size: 1.2rem;
+    font-weight: lighter;
+}
+
+.nav h4 {
+    font-weight: 500;
+}
+
+.part2 button {
+    padding: 0.5rem 1rem;
+    background-color: white;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+
+.center {
+    margin-top:  3.5rem;
+    display: flex;
+}
+
+.left {
+    width: 50%;
+}
+
+.left h1 {
+    width: 70%;
+    font-size: 3rem;
+    line-height: 1.2;
+}
+
+.left p {
+    font-weight: 500;
+    width: 64%;
+    margin-top: 2rem;
+}
+
+.left button {
+    padding: 15px 25px;
+    font-size: 1rem;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    border: none;
+    margin-top: 2rem;
+    font-weight: 400;
+}
+
+
+.right {
+    width: 50%;
+}
+
+.right img {
+    position: absolute;
+    right: 0;
+    width: 40%;
+}
+
+
+
+.coustom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4.3rem;
+}
+
+.coustom img {
+    width: 10rem;
+}
+
+
+.page2 {
+    width: 100%;
+    height: 100vh;
+}
+
+.services {
+    display: flex;
+    width: 65%;
+    gap: 2rem;
+    margin-top: 7rem;
+}
+
+.services h1 {
+    font-size: 2.5rem;
+    background-color: #9AE975;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 7px;
+    border-radius: 5px;
+}
+
+.services p {
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    padding: 0px 7px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+.services2 {
+    display: flex;
+    width: 70%;
+    gap: 2rem;
+    margin-top: 7rem;
+}
+
+.services2 h1 {
+    font-size: 2.5rem;
+    background-color: #9AE975;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 7px;
+    border-radius: 5px;
+    text-wrap: nowrap;
+}
+
+.services2 p {
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    padding: 0px 7px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+
+
+
+.cards {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    height: 50vh;
+    width: 100%;
+    gap: 3rem;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.elem {
+    width: 48%;
+    height: 300px;
+    border-radius: 50px;
+    border: 2px solid black;
+    box-shadow: 0px 7px 0px black;
+}
+
+
+.elem {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.elem:nth-child(1) img {
+    width: 40%;
+}
+
+.elem:nth-child(4) img {
+    width: 60%;
+}
+
+.elem:nth-child(2) img {
+    width: 30%;
+}
+
+
+#flex div {
+    display: flex;
+    gap: 20px;
+    font-size: 1.1rem;
+    align-items: center;
+    margin-top: 60px;
+}
+
+#flex div i {
+    font-size: 2rem;
+    background-color: black;
+    color: #9AE975;
+    border-radius: 50%;
+    padding: 3px;
+}
+
+#flex {
+    display: flex;
+    flex-direction: column;
+}
+
+#flex span {
+    background-color: #9AE975;
+    font-size: 2rem;
+}
+
+
+
+
+
+.page3 {
+    width: 100%;
+    height: 130vh;
+    position: relative;
+}
+
+.gray img {
+    width: 22%;
+    position: absolute;
+    right: 15%;
+    top: 0%;
+}
+
+.gray {
+    margin-top: 130px;
+    padding: 60px 70px;
+    background-color: #F3F3F3;
+    display: flex;
+    justify-content: space-between;
+}
+
+.gray div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 40%;
+}
+
+.gray h1 {
+    font-size: 2rem;
+}
+
+.gray p {
+    margin-top: 25px;
+}
+
+.gray button {
+    margin-top: 25px;
+    background-color: black;
+    padding: 10px 20px;
+    color: white;
+    width: 50%;
+    font-size: 1.1rem;
+    border-radius: 10px;
+}
+
+.services:nth-child(2) h1 {
+    text-wrap: nowrap;
+    padding: 2px 5px;
+}
+
+
+.black {
+    background-color: black;
+    margin-top: 50px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 70px 50px;
+    border-radius: 40px;
+}
+
+.black div {
+    width: 30%;
+}
+
+.black div div {
+    color: #9AE975;
+    display: flex;
+}
+
+.ln div i {
+    font-size: 2rem;
+    color: #9AE975;
+    background-color: darkgreen;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.ln div {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    gap: 5px;
+    margin-top: 20px;
+}
